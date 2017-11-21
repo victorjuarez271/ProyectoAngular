@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html ng-app='myLibrary'>
+	<head >
+		<meta charset="utf-8">
+		<meta name="keywords" content="exchange, development, leadership, internship">
+		<meta name="author" content="Vic">
+		<title>International Exchanges</title>
+		<script src="vendor/angular/angular.min.js"></script>
+		<script src="vendor/bootstrap/js/jquery.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>		
+		<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">	
+		
+		<style>
+            body { position: relative; }
+				#section0 {height:50px;color: #fff;}
+        </style>
+	</head>
+	
+	<!-------Barra de Navegacion------>
+	<body >
+		
+		<div class="container-fluid" id="section0">
+		</div>
+        <navbar></navbar>
+        
+        <div class="container" style="padding-bottom: 15px">
+			<div class="media">
+				<video controls autoplay muted style="display: block; width: 100%; height: 500px;  margin: auto">
+			  		<source src="imagenes/video.mp4" type="video/mp4">
+				</video>
+			</div>
+		</div>
+        
+        
+        <div class="container" style="padding-top: 10px">
+            <div class="row">
+                
+                <div class="col-md-4">
+                    <h2 style="text-align: center; color: crimson">Global Volunteer</h2>
+                    <p style="text-align: center;padding-top: 10px; font-size: 19px">Ambitious enough to believe you can make a positive impact in our world? Well, we believe you can, through volunteering towards the UN Global Goals! </p>
+                    <h4 style="text-align: center;padding-top: 10px; color: darkgrey">Duration</h4>
+                    <p style="text-align: center; font-size: 19px">6-8 weeks</p>
+                    <h4 style="text-align: center;padding-top: 10px; color: darkgrey">Organization</h4>
+                    <p style="text-align: center; font-size: 19px">NGO</p>
+                    <h4 style="text-align: center;padding-top: 10px; color: darkgrey">Compensation</h4>
+                    <p style="text-align: center; font-size: 19px">NO</p>
+                    
+                </div>
+                <div class="col-md-4">
+                    <h2 style="text-align: center; color: cadetblue">Global Talent</h2>
+                    <p style="text-align: center;padding-top: 10px; font-size: 19px">Searching for the next opportunity to level yourself up and gain professional experience? Differentiate yourself through an international internship.</p>
+                    <h4 style="text-align: center;padding-top: 10px; color: darkgrey">Duration</h4>
+                    <p style="text-align: center; font-size: 19px">24-78 weeks</p>
+                    <h4 style="text-align: center;padding-top: 10px; color: darkgrey">Organization</h4>
+                    <p style="text-align: center; font-size: 19px">Company</p>
+                    <h4 style="text-align: center;padding-top: 10px; color: darkgrey">Compensation</h4>
+                    <p style="text-align: center; font-size: 19px">YES</p>
+                </div>
+                <div class="col-md-4">
+                    <h2 style="text-align: center; color: darkseagreen">Global Entrepreneur</h2>
+                    <p style="text-align: center;padding-top: 10px; font-size: 19px">Does a dynamic, fast-paced work environment excite you? Begin your entrepreneurial journey with an internship at a startup and create your company!<br></p>
+                    <h4 style="text-align: center;padding-top: 10px; color: darkgrey">Duration</h4>
+                    <p style="text-align: center; font-size: 19px">6-12 weeks</p>
+                    <h4 style="text-align: center;padding-top: 10px; color: darkgrey">Organization</h4>
+                    <p style="text-align: center; font-size: 19px">Startup</p>
+                    <h4 style="text-align: center;padding-top: 10px; color: darkgrey">Compensation</h4>
+                    <p style="text-align: center; font-size: 19px">NO</p>
+                </div>
+            </div>
+        </div>
+        <carrusel></carrusel>
+		<div class="container" id="section4">
+			<div class="row" style="padding-top: 10px">
+		        <div class="col-md-8">
+		        	<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d900.1764968665851!2d-103.3952369708166!3d25.514850298984335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fdc82c07a47c1%3A0xd974801c9908ef17!2sMisi%C3%B3n+972%2C+Residencial+Tecnol%C3%B3gico%2C+Torre%C3%B3n%2C+Coah.!5e0!3m2!1sen!2smx!4v1508854770940"></iframe>
+		    	</div>
+		      	<div class="col-md-4">
+		    		<h2>Our Offices</h2>
+		    		<address>
+		    			<strong>Volunteer</strong><br>
+		    			Av. Misión Santa María 972<br>
+		    			Las Misiones<br>
+		    			Torreón, Coahuila<br>
+		    			México<br>
+		    			27272<br>
+		    			<abbr title="Phone">P:</abbr> 01234 567 890
+		    		</address>
+		    	</div>
+		    </div>
+		</div>
+        <div class="container">
+            <footer style="margin-top: 50px">
+                <p>© 2017 Company, Inc. · <a href="#">Privacidad</a> · <a href="#">Terminos</a></p>
+                <p class="footer-right"><a href="#">Volver arriba</a></p>			   
+            </footer>	
+        </div>
+        <script src="js/directivas.js"></script>
+	</body>
+
+</html>

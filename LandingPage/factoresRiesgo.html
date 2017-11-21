@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html ng-app='myLibrary'>
+	<head>
+		<meta charset="utf-8">
+		<meta name="kewords" content="control, diabetes, niños, ayuda">
+		<meta name="author" content="Sergio muz">
+		<title>Control Diabetes</title>
+		<script src="vendor/angular/angular.min.js"></script>
+		<script src="vendor/bootstrap/js/jquery.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>		
+		<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/custom.css">	
+		<link rel="shotrcut icon" type="image/x-icon" href="imagenes/logo.png">
+		
+	</head>
+	
+    <!-------Barra de Navegacion------>
+	<body style="margin-top: 51px; background-color: #D8D8D8">
+		
+       <navbar></navbar>
+        <div  style="background-color: white; margin-left: 2%; margin-right: 2%">
+        
+       <carrusel></carrusel>
+       
+        <!----------Barra Separadora----------->
+            <div style="margin: 80px" id="tiposDiabetes">
+                <hr class="featurette-divider">    
+            </div> 
+        <!----------------------Factores de Riesgo------------------------>
+        <div class="container factoresRiesgo" style="margin-bottom: 50px" align="center">
+            <h1><strong>Factores de Riesgo de Desarrollar Diabetes</strong></h1>    
+        </div>
+        
+        <div class="container" id="factores">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <img src="imagenes/sobrepeso.jpg" alt="sobrepeso">
+                    <p><strong>Sobrepeso y Obesidad</strong></p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <img src="imagenes/sindome.jpg" alt="sindrome">
+                    <p><strong>Síndrome Metabólico</strong></p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <img src="imagenes/prediabetes.jpg" alt="prediabetes">
+                    <p><strong>Prediabetes</strong></p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <img src="imagenes/obesidadAumeta.jpg" alt="sindrome">
+                    <p><strong>Obesidad en niños Aumenta</strong></p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <img src="imagenes/diabetesNinos.jpg" alt="prediabetes">
+                    <p><strong>Sobrepeso, Obesidad y Diabetes en Niños</strong></p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <img src="imagenes/hiper.jpg" alt="sobrepeso">
+                    <p><strong>Hiperinsulinismo</strong></p>
+                </div>
+            </div>
+        </div>
+        
+        <!-----------Video----------->           
+        <div id="modalVideo" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-contentvideo" >
+                    <div class="panel-heading">
+                        
+                        <button class="close" type="submit" data-dismiss="modal" style="margin-top: 50px;margin-bottom: 10px">&times;</button>
+                    </div>
+                    <div class="panel-body">
+                    <video width="100%" controls >
+                          <source src="imagenes/VideoDiabetes.mp4" type="video/mp4">
+                    </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+        <div class="container">
+            <footer style="margin-top: 50px">
+                <p>© 2017 Company, Inc. · <a href="#">Privacidad</a> · <a href="#">Terminos</a></p>
+                <p class="footer-right"><a href="#">Volver arriba</a></p>			   
+            </footer>	
+        </div>
+        </div>
+        <script src="js/directivas.js"></script>
+    </body>
+</html>
